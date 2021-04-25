@@ -1,0 +1,60 @@
+* {
+    color: white;
+}
+
+
+.folder__icon, .doc__icon {
+    width: 40px;
+}
+
+.back__icon{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.content__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+}
+
+.folder__container, .file__container{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #2c2c2c;
+    margin: 20px;
+    padding: 15px 30px;
+
+}
+
+.folder__container{
+    cursor: pointer;
+}
+
+.folder__container span, .file__container span{
+    align-self: center;
+    margin-left: 5px;
+}
+
+.up{
+    color: lightgray;
+    width: 20%;
+    padding: 10px;
+    background-color: grey;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #fff;
+
+}
+
+.up:hover{
+    background-color: #2c2c2c;
+    border: 1px solid #fff;
+}
+
+.up:focus{
+    border: 3px solid #fff;
+}
